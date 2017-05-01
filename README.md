@@ -2,11 +2,7 @@
 
 This Theme is forked from https://github.com/pinggod/hexo-theme-apollo
 
-该项目不再接受添加新特性、功能的 pull request，所有创造性的想法请 fork 该项目之后自由发挥。
-
-## 安装
-
-[![asciicast](https://asciinema.org/a/emrvroa9054hz6k8ise0uxh2u.png)](https://asciinema.org/a/emrvroa9054hz6k8ise0uxh2u)
+* [ ] Improve document
 
 ``` bash
 hexo init Blog 
