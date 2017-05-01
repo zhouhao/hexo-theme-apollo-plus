@@ -2,6 +2,8 @@ doctype
 html(lang=config.language)
     head
         include head
+        script(src="https://use.fontawesome.com/0a81c537eb.js")    
+        script(src="//code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous")
     body
         .wrap
             header
@@ -9,7 +11,13 @@ html(lang=config.language)
                     img(src=url_for(theme.logo) alt="logo")
                 include nav
             main.container
-                block container
+            if page.path === "tags/index.html"
+                .all-categories.tag-content 
+                    != list_categories({show_count: false, depth: 2, class: 'nav-category', style: 'list'})
+                .all-tags.tag-content
+                    != tagcloud()
+            else
+                 block container
             footer
                 block pagination
                 block copyright
