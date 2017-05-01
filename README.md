@@ -36,7 +36,7 @@ archive_generator:
 ### Enable category and tag entry page
 > demo: https://hzhou.me/tags/
 
-To have this page, you have to create a new page(page name does not matter, for example: mine is called `tags`)
+To have this page, you have to create a new page named `tags`
 ```bash
 hexo new page tags
 # you can change the `title`, otherwise its default value is "tags"
