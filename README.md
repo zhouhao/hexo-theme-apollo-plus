@@ -30,9 +30,6 @@ archive_generator:
     daily: false
 ```
 
-> Please change `fontawesome` link in [layout/partial/layout.jade](https://github.com/zhouhao/hexo-theme-apollo-plus/blob/master/layout/partial/layout.jade#L5)   
-> You can grab yours from http://fontawesome.io/get-started/
-
 ### Enable category and tag entry page
 > demo: https://hzhou.me/tags/
 
